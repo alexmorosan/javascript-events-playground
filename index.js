@@ -11,5 +11,8 @@ document.addEventListener('DOMContentLoaded', function(){
         colorDiv.style.background = 'green'
   
     })
+
+    colorDiv.addEventListener('mouseover', function(){ colorDiv.style.background = 'red'})
+    colorDiv.addEventListener('mouseout', function(){ colorDiv.style.background = 'white'})
   
   })
